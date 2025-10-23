@@ -1,6 +1,6 @@
 // EncryptedVoting contract configuration
 // Update CONTRACT_ADDRESS after deploying to Sepolia
-export const CONTRACT_ADDRESS = '0x0000000000000000000000000000000000000000';
+export const CONTRACT_ADDRESS = '0xE1986fD7E434BbDD18D38d39F67B1f464fEECa08';
 
 export const CONTRACT_ABI = [
   {
