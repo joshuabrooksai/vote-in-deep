@@ -9,9 +9,9 @@ import {
     externalEaddress,
     externalEuint32
 } from "@fhevm/solidity/lib/FHE.sol";
-import {SepoliaConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
+import {ZamaEthereumConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
 
-contract EncryptedVoting is SepoliaConfig {
+contract EncryptedVoting is ZamaEthereumConfig {
     struct Poll {
         address creator;
         uint256 createdAt;
